@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c2c-hack-01",
+    "title": "Chitkara CodeSprint #01: Real-World Systems & Web Sprints",
+    "type": "HACKATHON",
+    "date": "NOV 2026 // COMPLETED",
+    "venue": "Chitkara University Labs",
+    "status": "ARCHIVED",
+    "spots": "COMPLETED [80+ HACKERS]",
+    "tagline": "Bridging academic theory and industry software engineering through 24-hour team building.",
+    "description": "Our inaugural hackathon sprint bringing together students across domains — web & mobile development, cloud computing, and AI tools. Over 20 student projects were built, reviewed, and deployed over the weekend.",
+    "rules": [
+      "Real-world problem solving across campus challenges",
+      "Hands-on code reviews with Technical Heads & Core Members",
+      "Live project demonstrations and architecture showcases"
+    ],
+    "actionText": "VIEW_EVENT_RECAP",
+    "actionUrl": "https://www.instagram.com/code2chill"
+  },
+  {
+    "id": "c2c-workshop-01",
+    "title": "Hands-On Workshop: Emerging Tech, AI & Cloud Foundations",
+    "type": "PRACTICAL_WORKSHOP",
+    "date": "OCT 2026 // COMPLETED",
+    "venue": "Chitkara Technical Node",
+    "status": "ARCHIVED",
+    "spots": "ATTENDEES: 100+ STUDENTS",
+    "tagline": "Practical learning bridging the gap between classroom syllabus and industry stacks.",
+    "description": "A comprehensive deep dive led by C2C leadership covering modern software workflows, open-source git collaboration, AI/ML tools, and cloud deployment pipelines for engineering students.",
+    "rules": [
+      "Zero slide-deck monotony — 100% interactive terminal & code environment",
+      "Peer-guided setup for Git, Docker, and full-stack environments",
+      "Interactive Q&A on internships and open-source contributions"
+    ],
+    "actionText": "CHECK_INSTAGRAM_HIGHLIGHTS",
+    "actionUrl": "https://www.instagram.com/code2chill"
+  }
+]

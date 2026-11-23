@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --pitch: #000000;
+    --neon: #00FF66;
+    --neon-dim: rgba(0, 255, 102, 0.12);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: #000000;
+    color: #EDEDED;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-color: #000000;
+    color: #EDEDED;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  /* Custom minimal brutalist scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #000000;
+    border-left: 1px solid #1a1a1a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00FF66;
+  }
+
+  /* Headings Space Grotesk */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.03em;
+  }
+}
+
+/* Brutalist Grid pattern */
+.bg-brutal-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+.bg-brutal-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Subtle CRT scanline effect */
+.scanline-overlay {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Terminal text glow */
+.text-neon-glow {
+  text-shadow: 0 0 12px rgba(0, 255, 102, 0.5), 0 0 2px rgba(0, 255, 102, 0.9);
+}
+
+.border-neon-glow {
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.25);
+}
+
+/* Raw borders */
+.brutal-border {
+  border: 1px solid #1f1f1f;
+}
+
+.brutal-border-light {
+  border: 1px solid #2e2e2e;
+}

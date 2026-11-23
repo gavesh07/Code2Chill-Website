@@ -1,0 +1,78 @@
+[
+  {
+    "id": "byteguard-ast",
+    "name": "ByteGuard AST",
+    "tagline": "Static analysis & automated vulnerability auditor for student git repositories.",
+    "description": "Inspects AST syntax trees, detects hardcoded secrets, flags unsafe memory buffers, and prevents vulnerable dependency imports before git commits leave your machine. Built by C2C for hackathon submissions.",
+    "status": "LIVE_PROD",
+    "statusBadge": "v1.2.0 STABLE",
+    "category": "Cybersecurity & Tooling",
+    "tech": ["Rust", "Tree-sitter", "CLI", "Security", "AST"],
+    "stats": {
+      "stars": "520+",
+      "contributors": 12,
+      "buildStatus": "PASSING",
+      "license": "MIT"
+    },
+    "repo": "https://github.com",
+    "demo": "https://github.com",
+    "command": "cargo install byteguard-cli --locked"
+  },
+  {
+    "id": "neural-dsa",
+    "name": "NeuralByte DSA Battleground",
+    "tagline": "1v1 algorithmic speedruns with real-time AST cheat detection and bytecode telemetry.",
+    "description": "Built for C2C's bi-weekly DSA clashes. Matches Chitkara coders in head-to-head LeetCode-style duels with isolated Docker test runners, memory profilers, and live visual execution trees.",
+    "status": "ACTIVE_SPRINT",
+    "statusBadge": "v2.0-BETA",
+    "category": "Competitive Systems",
+    "tech": ["Go", "React", "Docker Engine", "WebSockets", "Redis"],
+    "stats": {
+      "stars": "320+",
+      "contributors": 9,
+      "buildStatus": "CI RUNNING",
+      "license": "Apache 2.0"
+    },
+    "repo": "https://github.com",
+    "demo": "https://github.com",
+    "command": "git clone && docker-compose up --build"
+  },
+  {
+    "id": "campus-mesh",
+    "name": "Chitkara P2P CampusMesh",
+    "tagline": "Decentralized local-network compute pool and artifact sharing for hostel labs.",
+    "description": "Hostel Wi-Fi chokes on heavy PyTorch weights and Docker base layers. CampusMesh seeds heavy binaries across dorm subnets over Libp2p with zero internet egress costs and sub-millisecond local latency.",
+    "status": "ALPHA_CORE",
+    "statusBadge": "PROTO_0.9",
+    "category": "Distributed Systems",
+    "tech": ["Rust", "Libp2p", "Tauri", "WebRTC", "Protobuf"],
+    "stats": {
+      "stars": "210+",
+      "contributors": 6,
+      "buildStatus": "PASSING",
+      "license": "GPLv3"
+    },
+    "repo": "https://github.com",
+    "demo": "https://github.com",
+    "command": "curl -sSL https://get.mesh.c2c | sh"
+  },
+  {
+    "id": "prompt-forge",
+    "name": "PromptForge Edge Runner",
+    "tagline": "Local-first evals & synthetic dataset synthesis for small language models.",
+    "description": "Student devs don't have $10k GPU clusters. PromptForge runs quantized GGUF models on Apple Silicon and RTX laptops, scoring prompt robustness against 100+ automated adversarial test harnesses.",
+    "status": "EXPERIMENTAL",
+    "statusBadge": "LAB_EXP",
+    "category": "Applied AI",
+    "tech": ["Python", "llama.cpp", "FastAPI", "React", "Ollama"],
+    "stats": {
+      "stars": "195+",
+      "contributors": 11,
+      "buildStatus": "PASSING",
+      "license": "MIT"
+    },
+    "repo": "https://github.com",
+    "demo": "https://github.com",
+    "command": "pip install promptforge-edge"
+  }
+]
